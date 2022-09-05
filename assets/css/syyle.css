@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;500;800;900&display=swap');
+*{
+    font-family: 'Raleway', sans-serif;
+}
+:root{
+    --main-color: #4BBCB3 ;
+    --secondary-color: #10C98F;
+}
+.intro{
+    text-align: center;
+    margin: 4rem 0;
+}
+.intro h3{
+    color: #042f1c;
+    font-size: 2.3rem;
+}
+.intro .line{
+    background: var(--secondary-color);
+    height: .3vh;
+    width: 8%;
+    margin: 1rem auto;
+}
+.intro p{
+    width: 50%;
+    font-size: 1rem;
+    margin: 1rem auto;
+    font-weight: bold;
+}
+.btn-primary{
+    background: var(--secondary-color) !important;
+    text-transform: capitalize;
+    padding: .6rem 3rem !important;
+}
+.btn-primary:focus,.btn-primary:hover{
+    border: none !important;
+    outline: none !important;
+}
+
+.navbar{
+    background: var(--main-color) !important;
+}
+.navbar .nav-item{
+    padding: 0 1rem;
+}
+
+
+.navbar .nav-link{
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+/* banner */
+/* banner */
+#banner{
+    background: url(/assets/img/banner.jpg);
+    height: 85vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#banner .dark{
+    width: 100%;
+    height: 100%;
+    background: var(--main-color);
+    opacity: 0.8;
+    position: relative;
+} 
+
+#banner .container{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 20%;
+}
+
+#banner .container .text-content h1{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+#banner .text-content .line{
+    background: #fff;
+    height: .3vh;
+    width: 17%;
+}
+#banner .text-content p{
+    color: #fff;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 1rem 0;
+    line-height: 40px;
+}
+
+#banner .text-content .btn{
+    border: 1px solid white;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+#banner .text-content .btn:hover{
+    transition: all 1s ease;
+    background: var(--secondary-color);
+    border: none;
+}
+#banner .container .form-content{
+    background: #fff;
+    padding: 2rem 2rem;
+    width: 70%;
+    margin: 0 auto;
+}
+#banner .container .form-content .pp{
+    text-align: center;
+}
+#banner .container .form-content .line{
+    background: var(--secondary-color);
+    height: .3vh;
+    width: 17%;
+    margin: 0 auto;
+}
+#banner .container .form-content p{
+    font-weight: bold;
+    font-size: .8rem;
+}
+#banner .container .form-content p>span{
+    color: var(--secondary-color);
+}
+
+/* solution */
+/* solution */
+#solution{
+    padding: 2.5rem;
+}
+#solution .card .img{
+    width: 20%;
+}
+#solution .card .lead{
+    font-weight: 500;
+    margin: 1rem 0;
+}
+#solution .card h3{
+    color: #042f1c;
+    margin: 1rem 0;
+    font-weight: bolder;
+    line-height: 40px;
+}
+#solution .card h3:hover{
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+/* salute */
+#salute{
+    background: #E4F1ED;
+    padding: 6rem 3rem;
+}
+#salute .salute-img .imgs{
+    position: relative;
+}
+#salute .salute-img .percent{
+    background: var(--secondary-color);
+    width: 15%;
+    height: 25vh;
+    position: absolute;
+    top: 260%;
+    left: 34%;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+}
+#salute .percent h2{
+    font-size: 4rem;
+    font-weight: bold;
+}
+#salute .percent p{
+    font-size: 1rem;
+}
+#salute .salute-text h1{
+    color: #042f1c;
+    font-weight: bolder;
+    line-height: 1.6;
+}
+#salute .salute-text p{
+    font-weight: 400;
+    margin: 2rem 0;
+    line-height: 1.4;
+}
+#salute .salute-text .line{
+    background: #b8b8b8;
+    height: .3vh;
+    width: 100%;
+}
+#salute .salute-text ul{
+    color: #042f1c;
+    list-style: square url(/assets/img/dot.svg) outside;
+}
+#salute .salute-text ul li{
+    margin: 1rem 0;
+}
+#salute .salute-text .btn{
+    border: 1px solid var(--secondary-color);
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    border-radius: 0;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 2rem 0;
+}
+#salute .salute-text .btn:hover{
+    transition: all 1s ease;
+    background: var(--secondary-color);
+    border: none;
+    color: #fff;
+}
+/* testimony */
+/* testimony */
+#testimony {
+    background: #042f1c;
+    color: #fff;
+    padding: 5rem;
+}
+#testimony .container-width{
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* head */
+/* head */
+#head h2{
+    text-align: center;
+    margin-top : 3rem;
+    margin-bottom: 1rem;
+}
+#head .line{
+    background: var(--main-color);
+    height: .3vh;
+    width: 10%;
+    margin: 0 auto;
+}
+#head p{
+    text-align: center;
+}
+/* footer */
+/* footer */
+#footer{
+    background: #F4FCFA;
+    padding: 4rem;
+}
+#footer .container a:link{
+    color: #000;
+}
+
+/* body */
+#body{
+    padding: 4rem;
+}
+#body h2{
+    text-align: center;
+}
+#body .line{
+    background: var(--main-color);
+    height: .3vh;
+    width: 10%;
+    margin: 0 auto;
+}
